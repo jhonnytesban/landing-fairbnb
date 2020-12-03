@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.menu__list{
+    display: flex;
+    list-style: none;
+}
+.menu__link{
+    margin: 0 10px;
+    font-family: $font;
+    font-size: 1.2em;
+}
+.link{
+    text-decoration: none;
+}
