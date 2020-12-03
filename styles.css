@@ -30,7 +30,7 @@
 
 .slider-list {
   display: flex;
-  animation: cambio 20s infinite alternate linear;
+  animation: cambio 20s infinite alternate;
   width: 400%;
 }
 
