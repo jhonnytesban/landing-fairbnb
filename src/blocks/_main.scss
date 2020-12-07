@@ -1,13 +1,27 @@
+.article{
+    display: flex;
+    margin: 0 150px;
+    // background-color: royalblue;
+}
+.img__card{
+    width: 200px;
+    // height: 200px;
+}
+.container-info{
+    padding: 0 50px;
+}
 .subtitle{
     font-family: $font;
     font-weight: 600;
     font-size: 2em;
     color: rgb(0, 90, 0);
     text-align: center;
+    margin-bottom: 10px;
 }
-.subtitle-article{
+.article__text{
     font-family: $font;
-    font-weight: 600;
-    font-size: 1.5em;
-    color: rgb(35, 128, 35);
+    font-weight: 400;
+    font-size: 1.1em;
+    color: rgb(0, 90, 0);
+    text-align: center;
 }
