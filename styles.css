@@ -114,7 +114,6 @@
 .main {
   background-color: rgba(151, 178, 163, 0.13);
   padding-top: 100px;
-  padding-bottom: 20px;
 }
 
 .article {
@@ -207,9 +206,72 @@
   font-family: "Open Sans", sans-serif;
   font-size: 42px;
   line-height: 50px;
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.video__info {
+  padding: 0 350px;
+}
+.video__info .info__text {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.video__info .info {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.button-rtc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 40px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.button-rtc .link__rtc {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.footer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 50px;
+  background-color: #212a35;
+}
+
+.container-footer {
+  max-width: 200px;
+  max-height: 150px;
+}
+.container-footer .footer__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #757575;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container-footer .footer__img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 * {
