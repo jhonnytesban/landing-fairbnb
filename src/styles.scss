@@ -1,13 +1,13 @@
-@import './variables';
-@import './blocks/header';
-@import './blocks/slider';
-@import './blocks/main';
-@import './blocks/footer';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+@import './variables';
+@import './blocks/header';
+@import './blocks/slider';
+@import './blocks/main';
+@import './blocks/footer';
 html{
     scroll-behavior: smooth;
 }
