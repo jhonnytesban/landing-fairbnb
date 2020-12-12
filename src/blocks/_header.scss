@@ -10,6 +10,10 @@
     top: 0;
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 100;
+    @include tablet{
+        padding: 20px;
+        // padding-right: 20px;
+    }
 }
 .menu__list{
     display: flex;
@@ -17,13 +21,22 @@
     font-family: $font;
     font-weight: 600;
     font-size: 1.4em;
+    @include tablet{
+        font-size: 1.2em;
+    }
 }
 .link{
     text-decoration: none;
     margin: 0 20px;
+    @include tablet{
+        margin: 0 5px;
+    }
 }
 .logo{
     width: 250px;
     height: 50px;
+    @include tablet{
+        width: 200px;
+    }
 }
 

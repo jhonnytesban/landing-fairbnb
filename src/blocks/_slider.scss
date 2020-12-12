@@ -8,6 +8,9 @@
     @include laptop{
         height: 400px;
     }
+    @include tablet{
+        height: 350px;
+    }
 }
 .slider-list{
     display: flex;
@@ -51,6 +54,9 @@
     object-position: 0 -200px;
     @include laptop{
         object-position: 0 -100px;
+    }
+    @include tablet{
+        object-position:  0 0;
     }
 }
 
