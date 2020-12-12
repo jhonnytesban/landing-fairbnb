@@ -2,6 +2,9 @@
 .main{
     background-color: $colorBackground;
     padding-top: 100px;
+    @include tablet{
+        padding-top: 50px;
+    }
 }
 .article{
     display: flex;
@@ -17,12 +20,18 @@
         transition-duration: 0.5s;
         box-shadow: 0 10px 10px rgb(158, 158, 158);
     }
+    @include tablet{
+        margin: 50px 50px;
+    }
 }
 .img__card{
     width: 250px;
 }
 .container-info{
     padding: 20px 50px;
+    @include tablet{
+        padding: 20px 20px;
+    }
 }
 .subtitle{
     font-family: $font;
@@ -87,6 +96,9 @@
         font-size: 2.5em;
         color: #fff;
     }
+    @include tablet{
+        height: 250px;
+    }
 }
 .video__subtitle{
     font-family: $font;
@@ -102,6 +114,9 @@
     padding: 0 350px;
     @include laptop{
         padding: 0 200px;
+    }
+    @include tablet{
+        padding: 0 100px;
     }
     .info__text{
     text-align: center;
