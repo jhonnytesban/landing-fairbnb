@@ -332,6 +332,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */
