@@ -19,3 +19,9 @@ $font: 'Open Sans', sans-serif;
         @content;
     }
 }
+
+@mixin mobile {
+    @media only screen and (max-width: 600px){
+        @content;
+    }
+}

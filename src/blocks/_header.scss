@@ -14,6 +14,10 @@
         padding: 20px;
         // padding-right: 20px;
     }
+    @include mobile{
+        height: 50px;
+        padding: 0 5px;
+    }
 }
 .menu__list{
     display: flex;
@@ -23,6 +27,9 @@
     font-size: 1.4em;
     @include tablet{
         font-size: 1.2em;
+    }
+    @include mobile{
+        font-size: .8em;
     }
 }
 .link{
@@ -37,6 +44,9 @@
     height: 50px;
     @include tablet{
         width: 200px;
+    }
+    @include mobile{
+        width: 100px;
     }
 }
 

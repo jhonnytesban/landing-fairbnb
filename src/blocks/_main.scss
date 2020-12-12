@@ -6,6 +6,7 @@
         padding-top: 50px;
     }
 }
+
 .article{
     display: flex;
     margin: 0 150px;
@@ -22,6 +23,10 @@
     }
     @include tablet{
         margin: 50px 50px;
+    }
+    @include mobile{
+        display: block;
+        margin: 50px;
     }
 }
 .img__card{

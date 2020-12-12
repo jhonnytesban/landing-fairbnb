@@ -11,6 +11,9 @@
     @include tablet{
         height: 350px;
     }
+    @include mobile{
+        height: 250px;
+    }
 }
 .slider-list{
     display: flex;
@@ -48,6 +51,9 @@
     object-position: 0 -200px;
     @include laptop{
         object-position: 0 -150px;
+    }
+    @include mobile{
+        object-position: 0 0;
     }
 }
 .img2{
