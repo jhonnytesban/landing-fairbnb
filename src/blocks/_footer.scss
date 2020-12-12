@@ -1,15 +1,21 @@
 @import '../variables';
 
 .footer{
-    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     padding: 40px 50px;
     background-color: #212a35;
+    @include laptop{
+        padding: 20px 25px;
+    }
 }
 .container-footer{
     max-width: 200px;
     max-height: 150px;
+    @include laptop{
+        max-width: 150px;
+        max-height: 100px;
+    }
     .footer__text{
         font-family: $font;
         font-weight: 600;
@@ -25,4 +31,8 @@
 .footer :nth-child(1) {
     max-width: 300px;
     max-height: 200px;
+     @include laptop{
+        max-width: 200px;
+        max-height: 150px;
+    }
 }
