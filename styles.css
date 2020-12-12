@@ -40,6 +40,11 @@
   height: 550px;
   overflow: hidden;
 }
+@media only screen and (max-width: 1100px) {
+  .slider {
+    height: 400px;
+  }
+}
 
 .slider-list {
   display: flex;
@@ -110,6 +115,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 1100px) {
+  .container {
+    height: 400px;
+  }
 }
 .container .container-text {
   display: flex;
