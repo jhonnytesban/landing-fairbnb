@@ -286,7 +286,7 @@
   width: 100%;
   height: 300px;
   overflow: hidden;
-  background-image: url(../../assets/video-call.jpg);
+  background-image: url(./assets/video-call.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
