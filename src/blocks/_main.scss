@@ -25,17 +25,33 @@
         margin: 50px 50px;
     }
     @include mobile{
-        display: block;
-        margin: 50px;
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+}
+.article2{
+    @include mobile{
+        flex-direction: column-reverse;
+    }
+}
+.container-img{
+    @include mobile{
+        margin: auto;
     }
 }
 .img__card{
     width: 250px;
+    @include mobile{
+        width: 150px;
+    }
 }
 .container-info{
     padding: 20px 50px;
     @include tablet{
         padding: 20px 20px;
+    }
+    @include mobile{
+        padding: 10px 10px;
     }
 }
 .subtitle{
@@ -45,6 +61,9 @@
     color: rgb(0, 90, 0);
     text-align: center;
     margin-bottom: 20px;
+    @include mobile{
+        font-size: 1.5em;
+    }
 }
 .article__text{
     font-family: $font;
@@ -53,6 +72,9 @@
     color: rgb(0, 90, 0);
     text-align: center;
     margin-bottom: 40px;
+    @include mobile{
+        font-size: .8em;
+    }
 }
 .button{
     display: flex;
@@ -114,6 +136,9 @@
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
+    @include mobile{
+        font-size: 2em;
+    }
 }
 .video__info{
     padding: 0 350px;
