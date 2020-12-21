@@ -423,10 +423,14 @@
 }
 
 .container-videos {
-  position: relative;
   width: 100%;
   height: 100%;
   padding: 50px 200px;
+}
+@media only screen and (max-width: 600px) {
+  .container-videos {
+    padding: 20px 20px;
+  }
 }
 
 .video {
