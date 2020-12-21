@@ -422,34 +422,6 @@
   margin-bottom: 20px;
 }
 
-.button-rtc {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  height: 50px;
-  margin: auto;
-  border-radius: 20px;
-  background-color: #fcb900;
-}
-@media only screen and (max-width: 600px) {
-  .button-rtc {
-    width: 60%;
-  }
-}
-.button-rtc .link__rtc {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.2em;
-  text-decoration: none;
-  color: #000;
-}
-@media only screen and (max-width: 600px) {
-  .button-rtc .link__rtc {
-    font-size: 1em;
-  }
-}
-
 .container-videos {
   position: relative;
   width: 100%;
@@ -461,6 +433,39 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.navigation li {
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  cursor: pointer;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
+.navigation li:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+
+.title-tutorials {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 2em;
+  color: #fcb900;
 }
 
 .footer {

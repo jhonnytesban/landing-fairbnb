@@ -172,29 +172,7 @@
     margin-bottom: 20px;
     }
 }
-.button-rtc{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 50px;
-    margin: auto;
-    border-radius: 20px;
-    background-color: #fcb900;
-    @include mobile{
-        width: 60%;
-    }
-    .link__rtc{
-        font-family: $font;
-        font-weight: 400;
-        font-size: 1.2em;
-        text-decoration: none;
-        color: #000;
-        @include mobile{
-            font-size: 1em;
-        }
-    }
-}
+
 .container-videos{
     position: relative;
     width: 100%;
@@ -205,5 +183,36 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.navigation{
+    // transform: translateX(50%);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.navigation li{
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family: $font;
+    font-weight: 600;
+    transition-duration: .3s;
+    &:hover{
+        transition-duration: .5s;
+        transform: scale(1.2);
+    }
+}
+.title-tutorials{
+    font-family: $font;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2em;
+    color: #fcb900;
 }
 

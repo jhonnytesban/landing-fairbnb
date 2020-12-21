@@ -3,15 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fairbnb es una plataforma de alquiler vacacional, una alternativa turística sostenible, que ayuda a los proyectos sociales locales.">
     <link rel="shortcut icon" href="https://www.datocms-assets.com/16264/1583397694-fairbnbnew-logoicon.svg?h=192&w=192" type="image/x-icon">
-    
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-
-
-
     <link rel="stylesheet" href="styles.css">
-    <!-- <link rel="stylesheet" href="normalize.css"> -->
-
     <title>Fairbnb.coop</title>
 </head>
 <body>
@@ -111,14 +106,18 @@
                         <p class="info__text">TECNOLOGIA DIGITAL PARA CONFLUIR EN PROYECTOS DE CONCIENCIA</p>
                         <p class="info">En los entornos 3d y webRTC presentamos, debatimos, realizamos actividades, organizamos eventos.  Junto a organizaciones sociales con las que difundimos conciencia, construimos una comunidad permanente y pro-activa mediante la interacción cooperativa.</p>
                         <p class="info">Nuestra propuesta digital ubica, reúne y representa en entornos interactivos 3D y webRTC a Organizaciones educacionales, sociales, culturales, y de comercio justo con contenidos de muy alta calidad para una conciencia social más evolucionada.</p>
-                        <div class="button-rtc">
-                            <a href="#" class="link__rtc">Conoce los entornos webRTC</a>
-                        </div>
                     </div>
+                    <h4 class="title-tutorials">Video tutoriales de we2 Video</h4>
                     <div class="container-videos">
                         <video id="slider" controls class="video">
-                            <source src="./assets/WE2VIDEO - Customização da Sala (Parte 1).mp4" type="video/mp4">
+                            <source src="./assets/video1.mp4" type="video/mp4">
                         </video>
+                        <ul class="navigation">
+                            <li onclick="videoUrl('./assets/video1.mp4')">1</li>
+                            <li onclick="videoUrl('./assets/video2.mp4')">2</li>
+                            <li onclick="videoUrl('./assets/video3.mp4')">3</li>
+                            <li onclick="videoUrl('./assets/video4.mp4')">4</li>
+                        </ul>
                     </div>
                 </div>
             </article>
@@ -134,6 +133,10 @@
             <img src="./assets/we2.png" alt="" class="footer__img">
         </div>
     </footer>
-    
+    <script type="text/javascript">
+        function videoUrl(hmmm){
+            document.getElementById('slider').src = hmmm
+        }
+    </script>
 </body>
 </html>
