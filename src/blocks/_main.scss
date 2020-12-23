@@ -54,6 +54,16 @@
         padding: 10px 10px;
     }
 }
+.info1{
+    padding-left: 0;
+}
+.container1{
+    padding-top: 20px;
+}
+.card1{
+    width: 100%;  
+    height: 100%; 
+}
 .subtitle{
     font-family: $font;
     font-weight: 600;
@@ -104,7 +114,7 @@
 }
 .article-info{
     background-color: $colorBackground2;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 .container-section{
     width: 100%;

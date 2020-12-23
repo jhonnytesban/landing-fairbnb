@@ -7,14 +7,13 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
-  height: 80px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 130px;
   align-items: center;
-  position: sticky;
-  top: 0;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 100;
-  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 @media only screen and (max-width: 800px) {
   .header {
@@ -28,22 +27,23 @@
   }
 }
 
-.menu__list {
-  display: flex;
-  list-style: none;
+.title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 1.4em;
+  font-size: 2.2em;
+  color: #3f6c92;
 }
-@media only screen and (max-width: 800px) {
-  .menu__list {
-    font-size: 1.2em;
-  }
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  color: #659aba;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.2px;
 }
-@media only screen and (max-width: 600px) {
-  .menu__list {
-    font-size: 0.8em;
-  }
+
+.span {
+  color: #00b351;
 }
 
 .link {
@@ -57,7 +57,7 @@
 }
 
 .container-logo {
-  width: 200px;
+  width: 220px;
   height: 100px;
   margin-top: 10px;
 }
@@ -65,6 +65,7 @@
 .logo {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 @media only screen and (max-width: 800px) {
   .logo {
@@ -285,6 +286,19 @@
   }
 }
 
+.info1 {
+  padding-left: 0;
+}
+
+.container1 {
+  padding-top: 20px;
+}
+
+.card1 {
+  width: 100%;
+  height: 100%;
+}
+
 .subtitle {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -345,7 +359,7 @@
 
 .article-info {
   background-color: #2f3945;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 .container-section {
@@ -479,11 +493,14 @@
   color: #fcb900;
 }
 
+.new-footer {
+  background-image: linear-gradient(lightblue, azure);
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 40px 50px;
-  background-color: #212a35;
+  padding: 20px 50px;
 }
 @media only screen and (max-width: 1100px) {
   .footer {
@@ -497,7 +514,7 @@
 }
 
 .container-footer {
-  max-width: 200px;
+  max-width: 100px;
   max-height: 150px;
 }
 @media only screen and (max-width: 1100px) {
@@ -530,7 +547,7 @@
 }
 
 .footer :nth-child(1) {
-  max-width: 300px;
+  max-width: 200px;
   max-height: 200px;
 }
 @media only screen and (max-width: 1100px) {
@@ -544,6 +561,27 @@
     max-width: 150px;
     max-height: 100px;
   }
+}
+
+.container-diagrama {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.diagrama {
+  height: 300px;
+  opacity: 0.5;
+  transition-duration: 0.2s;
+}
+.diagrama:hover {
+  transition-duration: 0.2s;
+  opacity: 1;
+}
+
+.diagrama__text {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
 html {

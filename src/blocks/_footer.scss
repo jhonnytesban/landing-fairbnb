@@ -1,10 +1,11 @@
 @import '../variables';
-
+.new-footer{
+    background-image: linear-gradient(lightblue, azure);
+}
 .footer{
     display: flex;
     justify-content: space-between;
-    padding: 40px 50px;
-    background-color: #212a35;
+    padding: 20px 50px;
     @include laptop{
         padding: 20px 25px;
     }
@@ -13,7 +14,7 @@
     }
 }
 .container-footer{
-    max-width: 200px;
+    max-width: 100px;
     max-height: 150px;
     @include laptop{
         max-width: 150px;
@@ -39,7 +40,7 @@
     }
 }
 .footer :nth-child(1) {
-    max-width: 300px;
+    max-width: 200px;
     max-height: 200px;
     @include laptop{
         max-width: 200px;
@@ -49,4 +50,22 @@
         max-width: 150px;
         max-height: 100px;
     }
+}
+.container-diagrama{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.diagrama{
+    height: 300px;
+    opacity: 0.5;
+    transition-duration: 0.2s;
+    &:hover{
+        transition-duration: 0.2s;
+        opacity: 1;
+    }
+}
+.diagrama__text{
+    font-family: $font;
+    text-align: center;
 }
