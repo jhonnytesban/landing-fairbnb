@@ -21,7 +21,7 @@
         max-height: 100px;
     }
     @include mobile{
-        max-width: 100px;
+        max-width: 60px;
         max-height: 80px;
     }
     .footer__text{
@@ -47,7 +47,7 @@
         max-height: 150px;
     }
     @include mobile{
-        max-width: 150px;
+        max-width: 100px;
         max-height: 100px;
     }
 }
@@ -64,8 +64,15 @@
         transition-duration: 0.2s;
         opacity: 1;
     }
+    @include mobile{
+        height: 200px;
+    }
 }
 .diagrama__text{
     font-family: $font;
     text-align: center;
+    @include mobile{
+        padding: 0 20px;
+        font-size: .7em;
+    }
 }

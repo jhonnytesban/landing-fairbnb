@@ -59,6 +59,9 @@
 }
 .container1{
     padding-top: 20px;
+    @include laptop{
+        height: 200px;
+    }
 }
 .card1{
     width: 100%;  

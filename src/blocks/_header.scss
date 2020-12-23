@@ -14,8 +14,9 @@
         padding: 20px;
     }
     @include mobile{
-        height: 50px;
+        display: block;
         padding: 0 5px;
+        margin-bottom: 20px;
     }
 }
 .title{
@@ -23,6 +24,13 @@
     font-weight: 600;
     font-size: 2.2em;
     color:  #3f6c92;
+    @include laptop{
+        font-size: 1.8em;
+        text-align: center;
+    }
+    @include mobile{
+        font-size: 1.5em;
+    }
 }
 .text{
     font-family: $font;
@@ -30,6 +38,12 @@
     font-weight: 600;
     text-align: center;
     letter-spacing: .2px;
+    @include laptop{
+        font-size: .9em;
+    }
+    @include mobile{
+        font-size: .8em;
+    }
 }
 .span{
     color: $colorFair;
@@ -58,6 +72,12 @@
     width: 220px;
     height: 100px;
     margin-top: 10px;
+    @include mobile{
+        margin: auto;
+        width: 120px;
+        height:  80px;
+        margin-top: 20px;
+    }
 }
 .logo{
     width: 100%;
@@ -67,7 +87,7 @@
         width: 200px;
     }
     @include mobile{
-        width: 100px;
+        max-width: 150px;
     }
 }
 
